@@ -19,8 +19,8 @@ class NPredictParameter extends StatelessWidget {
       labelText: 'Predict Length',
       inputValue: ai.llm.nPredict,
       sliderMin: 1.0,
-      sliderMax: 4096.0,
-      sliderDivisions: 4095,
+      sliderMax: 16384.0,
+      sliderDivisions: 16383,
       onValueChanged: (value) {
         LargeLanguageModel.of(context).nPredict = value.round();
       }

@@ -19,8 +19,8 @@ class NCtxParameter extends StatelessWidget {
       labelText: 'Context Length',
       inputValue: ai.llm.nCtx,
       sliderMin: 0.0,
-      sliderMax: 4096.0,
-      sliderDivisions: 4095,
+      sliderMax: 16384.0,
+      sliderDivisions: 16383,
       onValueChanged: (value) {
         LargeLanguageModel.of(context).nCtx = value.round();
       }
