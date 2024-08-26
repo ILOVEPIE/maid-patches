@@ -1,6 +1,6 @@
 [submodule "packages/maid_llm"]
 	path = packages/maid_llm
-	url = https://github.com/Mobile-Artificial-Intelligence/maid_llm.git
+	url = https://github.com/ILOVEPIE/maid_llm-patches.git
 [submodule "packages/flutter"]
 	path = packages/flutter
 	url = https://github.com/flutter/flutter.git
